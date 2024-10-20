@@ -1,13 +1,8 @@
 const username = 'ArionDantas';
-const token = 'ACCESS_KEY';
 
 async function fetchGitHubProfile() {
     try {
-        const response = await fetch(`https://api.github.com/users/${username}`, {
-            headers: {
-                Authorization: `token ${token}`
-            }
-        });
+        const response = await fetch(`https://api.github.com/users/${username}`);
         const data = await response.json();
 
         document.getElementById('avatar').src = data.avatar_url;
@@ -19,11 +14,7 @@ async function fetchGitHubProfile() {
 
 async function fetchGitHubRepos() {
     try {
-        const response = await fetch(`https://api.github.com/users/${username}/repos`, {
-            headers: {
-                Authorization: `token ${token}`
-            }
-        });
+        const response = await fetch(`https://api.github.com/users/${username}/repos`);
         const repos = await response.json();
 
         const reposList = document.getElementById('repos');
