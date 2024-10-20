@@ -1,5 +1,5 @@
 # LandPage
 
- Exercíco para criar uma landpage com HTML e CSS
+Trabalho da matéria de Construção de Software para Web
 
-Link para acessar a landpage: https://ariondantas-landpage.netlify.app/
+Link para acessar o site: https://ariondantas.github.io/landpage_cws/
