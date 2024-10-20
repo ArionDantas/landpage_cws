@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/css/patterns.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <script src="./assets/js/app.js"></script>
+  <title>Arion Dantas</title>
+</head>
+
+<body>
+  <div class="menu-spacing"></div>
+
+  <input id="close-menu" class="close-menu" type="checkbox" role="button" aria-label="Close menu">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  <aside class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false">
+        <a href="#intro">Arion Dantas Jr</a>
+      </h1>
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false">
+          <li><a href="#about-me" target="_self">Sobre mim</a></li>
+          <li><a href="#work" target="_self">Currículo</a></li>
+          <li><a href="#github" target="_self">Github</a></li>
+          <li><a href="#artes" target="_self">Artes</a></li>
+          <li><a href="#pricing" target="_self">Servicos</a></li>
+          <li><a href="#contact" target="_self">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <section id="intro" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Olá, sou o Arion!</h2>
+        <p>
+          Tenho 19 anos, estou cursando Ciência da Computação na Universidade Vila Velha. Gosto de jogar bola e vôlei.
+          Passei maior parte da minha infância em Cariacica. No fundamental estudei na EMEF SEBASTIÃO RODRIGUES SOBRINHO
+          e no ensino médio no EEEFM HUNNEY EVEEREST PIOVESAN.
+      </div>
+      <div class="intro-img">
+        <img src="./assets/img/foto.png" alt="Minha foto" />
+      </div>
+    </div>
+  </section>
+
+  <section id="about-me" class="white-bg section">
+    <div class="main-content about-me">
+      <div class="about-me-text-content">
+        <h2 class="grid-main-heading">Sobre mim</h2>
+        <p class="grid-description">Tenho habilidades em tarefas do dia a dia, como organização e gestão de tempo. Uso
+          bem ferramentas de produtividade, como editores de texto e planilhas. Na parte de tecnologia, tenho
+          conhecimento de desenvolvimento web com HTML, CSS e JavaScript, e também sei lidar com bancos de dados. Sou
+          rápido em aprender novas ferramentas e me adaptar a diferentes tipos de projetos e desafios.</p>
+
+        <h4 style="margin: 10rem">Principais Atividades</h4>
+        <div class="grid">
+          <article>
+            <h3>Futebol</h3>
+            <p>
+              Jogo bola de vez enquando aos fins de semana. Desde novo sempre gostei de jogar futebol. Comecei jogando
+              futsal depois fui para o futebom de campo onde me apaixonei pelo esporte. Hoje em dia jogo mais por
+              hobbie.
+            </p>
+          </article>
+          <article>
+            <h3>One Piece</h3>
+            <p>
+              Sempre ao final de semana gosto de assistir um epísodio de anime. O meu favorito é o One Piece que
+              parece nunca acabar. Fiquei um bom tempo sem ver nenhum, porém comecei a assistir Naruto e a paixão
+              voltou. Desde quando comecei já assitir vários animes.
+            </p>
+          </article>
+          <article>
+            <h3>Missa</h3>
+            <p>
+              Sempre aos domingos separo um tempo do meu dia para me dedicar a Jesus. Sempre vou a missa para
+              relembrar a Morte e Ressureição de Cristo. Dessa forma, renovando minha fé e amor a Ele, para seguir
+              seus passos.
+            </p>
+          </article>
+        </div>
+
+
+        <div style="margin: 10rem">
+          <h2>Essa é a minha luta preferida de Naruto!</h2>
+
+          <iframe width="50%" height="515" src="https://www.youtube.com/embed/wrDoR656HFo?si=SARJlrDZ8uBThas6"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <h4>Formação</h4>
+        <p>
+          Tenho formação em Técnico em Informática pelo SENAC Vitória-ES, lá aprendi boa parte do que sei sobre
+          tecnologia, desde hardware, redes a programação. Foi uma etapa muito importante da minha vida, pois além de
+          adquirir conhecimentos técnicos fiz amizades valiosas que são muito importantes para mim.
+        </p>
+
+        <h4>Trabalho</h4>
+        <p>
+          Atualmente trabalho na Mindworks. Sou estágiario de N1 Service Desk. Minha principal função é o de suporte
+          remoto, resolvo os problemas dos usuários. Os problemas são: falha na impressoa, conexão de rede, lentidão do
+          computador, aplicativos que pararam de funcionar por falta de atualização, etc.
+        </p>
+
+        <h4>Faculdade</h4>
+        <p>
+          Estou no primeiro semestre de Ciência da Computação na Universidade Vila Velha e estou cursando as seguintes
+          matérias:
+        </p>
+
+
+        <table id="disciplines">
+          <thead>
+            <tr>
+              <th class="first-child" colspan="2">Ciência da Computação</th>
+            </tr>
+            <tr>
+              <th>Disciplinas</th>
+              <th>Carga Horária</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="line-table">Construção de Software para Web</td>
+              <td class="line-table">80h</td>
+            </tr>
+            <tr>
+              <td class="line-table">Design e Desenvolvimento de Banco de Dados I</td>
+              <td class="line-table">80h</td>
+            </tr>
+            <tr>
+              <td class="line-table">Experiência e Interface com o Usuário</td>
+              <td class="line-table">40h</td>
+            </tr>
+            <tr>
+              <td class="line-table">Fundamentos de Tecnologia da Computação</td>
+              <td class="line-table">60h</td>
+            </tr>
+            <tr>
+              <td class="line-table">Lógica para Computação</td>
+              <td class="line-table">80h</td>
+            </tr>
+            <tr>
+              <td class="line-table">Textos Científicos: Aspectos Metodológicos e Linguísticos</td>
+              <td class="line-table">80h</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td><strong>Total Horas:</strong></td>
+              <td><strong>420h</strong></td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Trabalhos</h2>
+      <p class="grid-description">Minhas ultimas experiências de trabalho.</p>
+      <div class="grid">
+        <article>
+          <h3>Menor Aprendiz</h3>
+          <p>
+            Fui menor aprendiz da Águia Branca em 2022, meu contrato foi de um ano. Lá tive meu primeiro contato com o
+            mercado de trabalho, foi uma boa experiência, infelizmente foi apenas por um ano.
+          </p>
+        </article>
+        <article>
+          <h3>MindWorks</h3>
+          <p>
+            Meu primeiro estágio curiosamente foi na MindWorks, onde trabalho atualmente. Quando entrei pela primeira
+            vez foi no final do ano de 2022. Fiquei lá por 3 meses apenas, mas foi por motivos pessoais. Mas hoje
+            retornei e estou muito feliz.
+          </p>
+        </article>
+        <article>
+          <h3>BrasilCenter</h3>
+          <p>
+            Meu último e mais recente emprego foi na BrasilCenter como atendente de telemarketing. Lá trabalhei
+            atendendo os chamados da Claro. Entrei por causa da opção de trabalho remoto, que possibilitava ficar com
+            minha avó em casa.
+          </p>
+        </article>
+      </div>
+
+      <h4 style="padding-top: 10rem;">Currículo</h4>
+      <p><a href="./assets/file/curriculum_ariondjunior.docx (5).pdf" download="curriculo-ariondantas.pdf"
+          type="text/pdf" style="color: #fff; text-decoration: underline;">Baixe meu currículo aqui</a></p>
+    </div>
+  </section>
+
+
+  <section id="github" class="white-bg section">
+    <div class="main-content jobs">
+      <div class="jobs-text-content">
+        <h2>Meu Github</h2>
+        <div class="github-api">
+          <div class="profile">
+            <img id="avatar" src="" alt="Foto do Perfil do GitHub">
+            <div id="username"></div>
+          </div>
+
+          <h3 style="padding: 5rem 0rem 5rem 0rem">Link para os repositórios:</h3>
+          <ul id="repos"></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="artes" class="grid-gallery main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Foto de artes</h2>
+      <p class="grid-description">Artes que gosto de ver</p>
+      <div class="gallery-img">
+        <picture>
+          <source media="(max-width: 767px)" srcset="./assets/img/noite_estrelada.jpg">
+          <source media="(min-width: 768px)" srcset="./assets/img/ultima_ceia.jpg">
+          <img src="./assets/img/ultima_ceia.jpg" alt="Imagens que gosto">
+        </picture>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="white-bg section">
+    <div class="main-content pricing">
+      <div class="pricing-text-content ">
+        <h2>Preço</h2>
+        <p>
+          Ofereço serviços de criação de páginas web personalizadas. Desenvolvo páginas estáticas, ideais para quem busca um site informativo e simples. Também crio páginas dinâmicas, com interatividade e integração de funcionalidades mais complexas. Para projetos mais robustos, ofereço páginas avançadas, que envolvem banco de dados, otimização e uma experiência completa para os usuários.
+        </p>
+
+        <div class="responsive-table">
+          <table>
+            <caption>Preço por serviço</caption>
+
+            <thead>
+              <tr>
+                <th>Página estática</th>
+                <th>Pagina dinâmica</th>
+                <th>Página avançada</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>R$ 500,00 a R$ 800,00.</td>
+                <td>R$ 1.200,00 a R$ 1.800,00.</td>
+                <td>R$ 2.500,00 a R$ 4.000,00.</td>
+              </tr>
+              <tr>
+                <td style="text-wrap: wrap;">Ideal para pequenas empresas.</td>
+                <td style="text-wrap: wrap;"><strong>Sugerido:</strong> Ideal para médias empresas.</td>
+                <td style="text-wrap: wrap;">Ideal para grandes empresas.</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <th colspan="3" style="text-align: center;">Entre em contato!</th>
+              </tr>
+            </tfoot>
+
+          </table>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="intro main-bg section">
+    <div class="main-content intro-content">
+
+      <h2>Contato</h2>
+
+      <div class="contact-form">
+        <form class="form-field" action="mailto:contato.ariondantas@gmail.com" method="post">
+          <div class="form-group">
+            <label for="first-name">Nome</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <label for="last-name">Sobrenome</label>
+            <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Your email">
+          </div>
+          <div class="form-group full-width">
+            <label for="message">Mensagem</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+          </div>
+          <div class="form-group full-width">
+            <button type="submit">Enviar mensagem</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <footer id="footer" class="white-bg">
+    <p>Feito com <span class="heart">♥</span> por Arion Dantas</p>
+  </footer>
+
+  <a href="#intro" class="back-to-top">❯</a>
+
+</body>
+
+</html>
