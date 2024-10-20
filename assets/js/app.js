@@ -1,5 +1,5 @@
 const username = 'ArionDantas';
-const token = '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';
+const token = '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';
 
 async function fetchGitHubProfile() {
     try {
